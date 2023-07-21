@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Assigment</title>
+	<script src="https://kit.fontawesome.com/b4f93f326e.js" crossorigin="anonymous"></script>
+	<style type="text/css">
+	*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.main{
+	widows: 100%;
+	height: 1000px;
+	border: 2px black solid;
+	background-color:lightblue;
+	padding: 10px;
+}
+.headers{
+	display: flex;
+	width: 100%;
+	height: 50px;
+	border: 2px white solid;
+	background-color: white;
+}
+
+.navbar{
+	margin: 0px;
+	height: 0px;
+	
+}
+.navbar ul{
+	list-style: none;
+}
+.navbar li{
+	display: inline-block;
+	margin:  10px 30px ;
+}
+.navbar a{
+	text-decoration: none;
+
+}
+.right-div{
+	width: 200px;
+	height: 610px;
+	float: right;
+	margin: 20px 40px;
+}
+
+.iteams1{
+	width: 210px;
+	height: 250px;
+	border: 2px white solid;
+	margin: 5px;
+	background-color: white;
+}
+
+
+
+.iteams2{
+	width: 210px;
+	height:200px;
+	border: 2px white solid;
+	margin: 5px;
+	background-color: white;
+}
+
+
+.iteams3{
+	width: 210px;
+	height: 300px;
+	border: 2px white solid;
+	margin: 5px;
+	background-color: white;
+}
+
+
+.middel-div{
+	width: 700px;
+	height: 800px;
+	float: right;
+	margin: 0px 0px;
+}
+
+.star1{
+	width: 700px;
+	height: 100px;
+	border: 2px white solid;
+	margin: 10px 0px;
+	border-radius: 20px;
+	background-color: white;
+}
+.star1 img
+{
+	width: 50px;
+	height: 50px;
+	border: 1px white solid;
+	border-radius: 25px;
+	float: left;
+	margin: 10px 10px;
+	padding: 10px;
+}
+.star1 input{
+	margin: 20px 5px;
+	padding: 0px;
+	width: 600px;
+	height: 25px;
+	border: 1px black solid ;
+	border-radius: 200px;
+	padding: 10px;
+}
+.star1 .navbar{
+	display: flex;
+	justify-content: space-between;
+
+}
+.star1 .navbar a{
+color: brown;
+padding: 0px;
+}
+
+
+
+.star2{
+	width: 700px;
+	height: 350px;
+	border: 2px white solid;
+	margin: 10px 0px;
+	background-color: white;
+}
+.star2 img
+{
+	width: 50px;
+	height: 50px;
+	border: 1px white solid;
+	border-radius: 25px;
+	float: left;
+	margin: 10px 10px;
+	padding: 10px;
+
+}
+.star2 h3{
+	padding: 10px;
+}
+ .star2 .main-image{
+	width: 680px;
+	height: 200px;
+	border: 1px white solid;
+	border-radius: 0px;
+}
+.star2 .main-image1{
+	width: 5px;
+	height: 5px;
+	border: 1px white solid;
+	border-radius: 6px; 
+	margin: 0px;
+
+
+}
+
+.star3{
+	width: 700px;
+	height: 350px;
+	border: 2px white solid;
+	margin: 10px 0px;
+	background-color: white;
+}
+.star3 img {
+	width: 50px;
+	height: 50px;
+	border: 1px white solid;
+	border-radius: 25px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+.star3 div img{
+	align-items: center;
+}
+
+.left-div{
+	width: 200px;
+	height: 700px;
+	margin:13px 2px;
+	background-color: ;
+}
+
+.left1{
+	width: 230px;
+	height: 340px;
+	border: 2px white solid;
+	background-color: white;
+	margin: 10px;
+	border-radius: 20px;
+}
+.left1 h3 {
+	text-align: center;
+	margin: 30px 30px;
+}
+.left1 .text{
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+.left2{
+	width: 230px;
+	height: 250px;
+	border: 2px white solid;
+	background-color: white;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+.backcolor{
+	width: 226px;
+	height: 50px;
+	background:url("file:///C:/Users/Abhishek%20prajapati/Downloads/background.jpg");
+	border: 1px blue solid;
+	border-radius: 10px;
+}
+.backcolor img{
+	width: 60px;
+	height: 60px;
+	border: 1px white solid;
+	border-radius: 30px;
+	margin: 20px 80px;
+
+}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="headers">
+			<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" style="width:40px; height:40px; border: 1px white solid; border-radius:20px;margin:3px; margin-left: 60px;">
+			<input type="text" name="text" placeholder="search" style="Border:1px black solid; width:200px; border-radius: 10px; height: 25px; margin:10px 10px;padding: 5px;">
+			<nav class="navbar">
+				<ul>
+
+
+					<li><p style="text-align: center;"><i class="fa-sharp fa-solid fa-house"></i></p><a href="#"><p>Home</p></a></i></li>
+					<li><p style="text-align:center;"><i class="fa-sharp fa-solid fa-users"></i></p><a href="#">My Network</a></li>
+					<li><p style="text-align:center;"><i class="fa-solid fa-bag-shopping"></i></p><a href="#">Job</a></li>
+					<li><p style="text-align:center;"><i class="fa-solid fa-envelope"></i></p><a href="#">Messaging</a></li>
+					<li><p style="text-align:center;"><i class="fa-sharp fa-solid fa-bell"></i></p><a href="#">Notification</a></li>
+				</ul>
+			</nav>
+			<img src="file:///C:/Users/Abhishek%20prajapati/Downloads/Profile%20image.png" alt="profile logo" style="width: 40px; height: 40px; border:1px white solid;border-radius: 20px;margin: 3px 0px;">
+			<select style="width:20px; height:20px; margin:20px;">
+				<option></option>
+			</select>
+			<p style="font-size: 12px; margin:20px;">Try Primium Free for 1 months</p>
+
+
+		</div>
+		<div class="right-div">
+		<div class="iteams1">
+			<strong style="padding: 10px;">Linkedin News</strong>
+			<br>
+			<br>
+		
+				<strong>
+					<li>Indian crosses 3.58974 daily cases</li>
+				</strong>
+					<p>10h ago-5.043 reader</p>
+					<strong>
+					<li>Zomato file for $1.18 IPO</li>
+				</strong>
+					<p>13h ago-52043 readers</p>
+					<strong>
+					<li>Jobs pay,in IT soar</li>
+				</strong>
+					<p>1d ago 7865 readers</p>
+					<strong>
+					<li>Google saving $1B a year from WFH</li>
+				</strong>
+					<p>2d ago 7865 readers</p>
+				
+		
+		</div>
+		<div class="iteams2">
+			<strong style="padding: 10px;">Today's most viewed courses</strong>
+			<br>
+			<br>
+		
+				<strong>
+					<li>Indian crosses 3.58974 daily cases</li>
+				</strong>
+					<p>Top news 9874-readers</p>
+					<strong>
+					<li>Indian crosses 3.58974 daily cases</li>
+				</strong>
+					<p>Top news 9874-readers</p>
+					
+				
+		</div>
+		<div class="iteams3">
+			<img src="https://th.bing.com/th/id/R.4836ca64c9cb7c52a67d06bcbea666a1?rik=pvO5Sz86IG%2fYuA&riu=http%3a%2f%2f1000marcas.net%2fwp-content%2fuploads%2f2020%2f02%2fUnilever-Logo.png&ehk=whmOFeI2nuv25RXxMs7CkVLzZnV9nh0N5JYFRaUuFUc%3d&risl=&pid=ImgRaw&r=0" style="width:60px; height: 60px; border: 1px blue solid; border-radius: 30px; float: left;padding: 10px;">
+			
+			<h4>Unilever</h4>
+			<p>Company-Consuumar Goods</p>
+			<button type="link" style="width:200px;border-radius: 20px; margin: 10px 0px;"><a href="#" style="text-decoration: none;">+Follwer</a></button>
+
+			<hr>
+			<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" style="width:60px; height: 60px; border: 1px blue solid; border-radius: 30px; float: left;padding: 10px;">
+			<h4>Linkedin</h4>
+			<p>Company-internet</p>
+			<button type="link" style="width:200px;border-radius: 20px; margin: 10px 0px;"><a href="#" style="text-decoration: none;">+Follwer</a></button>
+			<hr>
+			<img src="file:///C:/Users/Abhishek%20prajapati/Downloads/myntra%20logo.jpg" style="width:60px; height: 60px; border: 1px blue solid; border-radius: 30px; float: left;padding: 10px;">
+			<h4>Myntra</h4>
+			<p>Company-internet</p>
+			<button type="link" style="width:200px;border-radius: 20px; margin: 10px 0px;"><a href="#" style="text-decoration: none;">+Follwer</a></button>
+
+
+		</div>
+	</div>
+	<div class="middel-div">
+		<div class="star1">
+			<img src="file:///C:/Users/Abhishek%20prajapati/Downloads/Profile%20image.png" alt="profil logo">
+			<input type="text" name="text" placeholder="start a post">
+			<nav class="navbar">
+			
+					<li><a href="#"><i class="fa-solid fa-image"></i>Photo</a></li>
+					<li><a href="#"><i class="fa-brands fa-youtube"></i>Video</a></li>
+					<li><a href="#"><i class="fa-regular fa-calendar-minus"></i>Event</a></li>
+					<li><a href="#"><i class="fa-solid fa-pen-to-square"></i>Write articals</a></li>
+				
+			</nav>
+		</div>
+		<div class="star2">
+			<img src="file:///C:/Users/Abhishek%20prajapati/Downloads/myntra%20logo.jpg">
+			<h3>Myntra Fashion</h3>
+			<p style="color: brown;">792,456 Followers<pre style="color :brown;"> Promoted</pre></p>
+			<img src="file:///C:/Users/Abhishek%20prajapati/Downloads/Demo%20post%20image.jpg"style="width:695px; height:200px; border-radius:0px;margin: 0px; padding:0px;">
+			<br>
+			<i class="fa-solid fa-thumbs-up"><span style="Margin:0px 10px;"></i><i class="fa-solid fa-heart"></i></span><span style="margin: 0px 10px;"><i class="fa-sharp fa-regular fa-comments"></i></span>
+			<span>20. Comments</span>
+			<br><hr>
+			<span style="Margin:0px 10px;"><i class="fa-solid fa-thumbs-up"></i> Like</span style="Margin:0px 10px;"><span style="Margin:0px 10px;"><i class="fa-sharp fa-regular fa-comments"></i> Comments</span><span style="Margin:0px 10px;"><i class="fa-solid fa-share"></i>Share</span>
+			<span style="margin:0px 10px;"><i class="fa-sharp fa-solid fa-paper-plane"></i>Send</span>
+		
+		
+
+			
+
+			
+
+		</div>
+		<div class="star3">
+		<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/da26baa2-cd0d-4d6f-b979-5ad37c937d82/d3jaj4k-b46182c7-9560-4f95-aa41-23e83774970f.jpg/v1/fill/w_482,h_428,q_75,strp/yash_creation_logo_by_yashcreation_d3jaj4k-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDI4IiwicGF0aCI6IlwvZlwvZGEyNmJhYTItY2QwZC00ZDZmLWI5NzktNWFkMzdjOTM3ZDgyXC9kM2phajRrLWI0NjE4MmM3LTk1NjAtNGY5NS1hYTQxLTIzZTgzNzc0OTcwZi5qcGciLCJ3aWR0aCI6Ijw9NDgyIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.wCNmOMQceVzp8nMZxkdAROCR3kSPQ95owtAwwAKie78">
+		<h3>Yash Sharma</h3>
+		<p style="color: brown;">10 Million -Flowers<pre  style="color :brown;">Youtube Channel</pre></p>
+		<br>
+		<p>Published new video on CSS propty Box model. this will run thoght few more propties that make up the box model.Margin Border, Padding, Content,-Height & width.</p>
+		<video style="width:695px; height:200px; border-radius:0px; margin: 0px; padding:0px;" loop autoplay controls>
+			<source src="file:///C:/Users/Abhishek%20prajapati/Downloads/Demo%20post%20video.mp4" >
+		</video>
+		<br>
+			<i class="fa-solid fa-thumbs-up"><span style="Margin:0px 10px;"></i><i class="fa-solid fa-heart"></i></span><span style="margin: 0px 10px;"><i class="fa-sharp fa-regular fa-comments"></i></span>
+			<span>20. Comments</span>
+			<br><hr>
+			<span style="Margin:0px 10px;"><i class="fa-solid fa-thumbs-up"></i> Like</span style="Margin:0px 10px;"><span style="Margin:0px 10px;"><i class="fa-sharp fa-regular fa-comments"></i> Comments</span><span style="Margin:0px 10px;"><i class="fa-solid fa-share"></i>Share</span>
+			<span style="Margin:0px 10px;"><i class="fa-sharp fa-solid fa-paper-plane"></i>Send</span>
+		
+		
+		
+
+		</div>
+	</div>
+	<div class="left-div">
+	<div class="left1">
+		<div class="backcolor">
+			<img src="file:///C:/Users/Abhishek%20prajapati/Downloads/Profile%20image.png" alt="backcolor img">
+		</div>
+		<h3>Yash Sharma</h3>
+		<p class="text">Tecnichal Trainer At Skill Academy</p>
+		<hr>
+		<span>Connetion</span><span style=" color: blue; word-spacing: 130px;" > 30</span>
+		<span><b>Grow your Network</b></span><span style=" color: blue; word-spacing: 60px;" > 30</span>
+		
+		<h4 style="Padding:10px;">Who viewed your profile</h4>
+		<hr>
+		<p>Access exclusive tools and singhts</p>
+		<p><b>Try premium for one months</b></p>
+		<hr>
+		<h3>My items</h3>
+		
+	
+	<div class="left2">
+		<strong style="Padding:5px;padding: 5px;">Recent</strong>
+		<ul style="list-style: none; padding: 5px;">
+			<li>#Tensorflow</li>
+			<li>#Tensorflow</li>
+			<li>#Tensorflow</li>
+			<li>#Tensorflow</li>
+			<li>#Tensorflow</li>
+
+		</ul>
+		<strong style="color: blue; padding: 5px;">Groups</strong>
+		<ul style="list-style:none; padding:5px;">
+			<li>Tensorflow</li>
+			<li>Tensorflow</li>
+		</ul>
+		<strong style="color:blue; padding:5px;">Followed Hashtags</strong>
+		<ul style="list-style:none; padding:5px;">
+			<li>#Tensorlflow</li>
+			<li># Tensorlflow</li>
+		</ul>
+	</div>
+	</html	

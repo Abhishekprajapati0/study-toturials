@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Risposive navbar</title>
+	<script  src="https://kit.fontawesome.com/b4f93f326e.js" crossorigin="anonymous"></script>
+	<style type="text/css">
+		*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+nav{
+display: flex;
+justify-content: space-between;
+background-color: gray;
+}
+nav ul{
+	display: flex;
+	list-style: none;
+}
+nav ul li {
+	margin: 10px 50px ;
+	padding: 10px;
+
+}
+nav ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+}
+.menu-bar i{
+	display:none ;
+	margin: 10px 20px;
+	color: white;
+}
+#click:checked ~ ul{
+	left: 0%;
+
+}
+#click:menu bar i:before{
+	contain: /f00d;
+	display: none;
+}
+nav input{
+	display:none ;
+}
+.lodo h1{
+	text-transform: uppercase;
+	font-style:oblique;
+	letter-spacing: 10px;
+	margin: 10px 30px ;
+	padding: 15px;
+	
+}
+@media (max-width:786px){
+	nav ul{
+		position: fixed;
+		top: 80px;
+		left: -100%;
+		height: auto;ss
+		width: 220px;
+		display: block;
+		text-align: center;
+		align-items: center;
+		background-color: black;
+	}
+	nav ul li{
+		margin: 10px 50px;
+	}
+	nav ul li a{
+		color: white;
+	}
+	.menu-bar i{
+	display: block;
+	color: white;
+}
+#click:checked ~ ul{
+	left: 0%;
+}
+nav input{
+	display:none;
+}
+.lodo h1{
+	text-align: center;
+	align-items: center;
+	
+}
+#click:menu bar i:before{
+	contain: /f00d;
+	display: block;
+}
+}
+	</style>
+</head>
+<body>
+	<nav>
+		<div class="lodo">
+			<h1>Navbar</h1>
+		</div>
+		<input type="checkbox" id="click">
+		<label for="click" class="menu-bar">
+			<i class="fas fa-bars"></i>
+		</label>
+		<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">About us</a></li>
+		<li><a href="#">Product</a></li>
+		<li><a href="#">Booking</a></li>
+		
+		</ul>
+	</nav>
+
+</body>
+</html>
