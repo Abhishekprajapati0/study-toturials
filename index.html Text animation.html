@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Text animatiom</title>
+	<style type="text/css">
+		.main{
+			width: 100%;
+			height: 100vh;
+			display: flex;
+			background-color: black;
+			justify-content:center;
+			align-items: center;
+
+		}
+		.type p {
+			color: hotpink;
+			margin: auto;
+			width: 0;
+			font-size: 2em;
+			white-space: nowrap;
+			border-right: .15rem  solid blue;
+			overflow: hidden;
+			animation: type 6s steps(23,end) infinite forwards;
+		}
+		@keyframes type {
+			0%{
+				width: 0;
+			}
+			50%{
+				width: 100%;
+			}
+		}
+
+
+	
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="type">
+			<p>Abhishek kumar prjajapati</p>
+		</div>
+	</div>
+
+</body>
+</html>
